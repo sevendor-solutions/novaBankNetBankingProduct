@@ -1,0 +1,43 @@
+import type { BankUser } from '../types';
+
+export const BANK_USERS: BankUser[] = [
+  {
+    id: 'user-01',
+    customerId: 'NOVA10001',
+    fullName: 'Rahul Sharma',
+    email: 'rahul.sharma@email.com',
+    phone: '+91 98765 43210',
+    branch: 'Hyderabad Main Branch',
+    pan: 'ABCDE1234F',
+    aadhaar: 'XXXX XXXX 4567',
+    address: 'Hyderabad, Telangana',
+    password: 'Password@123',
+    avatar: '',
+  },
+  {
+    id: 'user-02',
+    customerId: 'NOVA10002',
+    fullName: 'Ananya Reddy',
+    email: 'ananya.reddy@email.com',
+    phone: '+91 91234 56789',
+    branch: 'Hyderabad Main Branch',
+    pan: 'FGHIJ6789K',
+    aadhaar: 'XXXX XXXX 7890',
+    address: 'Hyderabad, Telangana',
+    password: 'Password@123',
+    avatar: '',
+  },
+  {
+    id: 'user-03',
+    customerId: 'NOVA10003',
+    fullName: 'Vikram Patel',
+    email: 'vikram.patel@email.com',
+    phone: '+91 90123 45678',
+    branch: 'Hyderabad Main Branch',
+    pan: 'LMNOP2345Q',
+    aadhaar: 'XXXX XXXX 1234',
+    address: 'Hyderabad, Telangana',
+    password: 'Password@123',
+    avatar: '',
+  },
+];
